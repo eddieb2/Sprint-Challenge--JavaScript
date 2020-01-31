@@ -44,6 +44,8 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
+/////////////////////// Answer: Closure is giving nestedFunction access to the outer function's scope. Closure give reference, of the function's surrounding state(lexical environment), to the function.
+
 // Explanation: 
 
 
