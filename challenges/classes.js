@@ -1,4 +1,5 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
+ ////////// CORRECT //////////////
 
 class CuboidMaker {
   constructor(length, width, height) {
@@ -25,6 +26,8 @@ console.log(cuboid.surfaceArea()); // 130
 //SURFACE AREA OF A CUBE: A=6a^2 
 // VOLUME OF A CUBE: V=a^3
 // a symmetrical three-dimensional shape, either solid or hollow, contained by six equal squares.//
+
+ ////////// CORRECT //////////////
 
 // EXPLAINATION: We only need one side of the cube to calc volume and surfaceArea, so I made the methods only take one side into account for the calculations. 
 class CubeMaker extends CuboidMaker {
